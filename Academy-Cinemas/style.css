@@ -1,0 +1,49 @@
+:root {
+  --main-bg: #111827;
+  --accent: #e11d48;
+  --text-light: #f9fafb;
+  --body-font-size: 1rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--body-font-size);
+  background-color: var(--main-bg);
+  color: var(--text-light);
+}
+
+h1, h2, h5 {
+  color: var(--text-light);
+}
+
+.navbar,
+footer {
+  background-color: #0f172a;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 0.875rem;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+img {
+  border-radius: 8px;
+}
