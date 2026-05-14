@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Website</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="One-Page-Website-CSS/One-Page Website.css">
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="One-Page-Website-javascript/one_page_website.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>My One Page Website</h1>
+        <p>Lightbox (Modal Image Gallery) Assignment</p>
+    </header>
+
+    <section id="gallery-section">
+        <h2>Image Gallery</h2>
+
+        <div class="gallery">
+            <img src="Images/img1_small.jpg" alt="Dog 1" onclick="openModal(this)">
+            <img src="Images/img2_small.jpg" alt="Dog 2" onclick="openModal(this)">
+            <img src="Images/img3_small.jpg" alt="Dog 3" onclick="openModal(this)">
+            <img src="Images/img4_small.jpg" alt="Dog 4" onclick="openModal(this)">
+        </div>
+    </section>
+
+    <!-- LIGHTBOX / MODAL -->
+    <div id="lightbox" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My One Page Website</p>
+    </footer>
+
+</body>
+</html>
